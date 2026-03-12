@@ -1,8 +1,8 @@
 cask "tray-link-electron" do
-  version "2.2.0"
-  sha256 "64f3fdc8705f5d4471295c8d39dfb956621e28c8e5fb12d51bf47d5f4c5bf837"
+  version "2.2.2"
+  sha256 "b6d7eceef086f1282a011020c303df3f086d0c6b9860b563792788a467aa3001"
 
-  url "https://github.com/thejoaov/tray-link/releases/download/v2.2.0/Tray.Link-darwin-arm64-2.2.0.zip"
+  url "https://github.com/thejoaov/tray-link/releases/download/v2.2.2/Tray.Link-darwin-arm64-2.2.2.zip"
   name "Tray Link"
   desc "Manage your projects from the system tray"
   homepage "https://github.com/thejoaov/tray-link"
