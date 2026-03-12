@@ -1,11 +1,13 @@
-cask "tray-link" do
+cask "tray-link-electron" do
   version "2.1.9"
-  sha256 "b2eee6425058028add63e6643e4a049d8bb7b207b5ab949925e8ef5505b2f436"
+  sha256 "1d6b6fc6ef715925217269b46601a71768d5e6fb2eb860230eba18bf4c134b26"
 
-  url "https://github.com/thejoaov/tray-link/releases/download/v2.1.9/Tray-Link-macOS-universal.zip"
+  url "https://github.com/thejoaov/tray-link/releases/download/v2.1.9/Tray.Link-darwin-arm64-2.1.9.zip"
   name "Tray Link"
   desc "Manage your projects from the system tray"
   homepage "https://github.com/thejoaov/tray-link"
+
+  depends_on arch: :arm64
 
   app "Tray Link.app"
 
